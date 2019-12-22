@@ -46,7 +46,7 @@ where you can a upload a file and submit for validation.
 7.	The input file will be validated based on two conduction mentioned in the problem statment.(validation condition mentioned in expected output section)
       *	Duplicate Transaction key check, 
       *	End balance calculation check. (endbalance = startbalance - mutation)
-8.  Finally invalid records will be getting as webservice response with status code. 
+8.  Invalid records with reference,description and failure reason will be displayed along with http code and response message.
 
 ### Exceptions Handled : 
 1.	Handled the following issues,
