@@ -79,7 +79,7 @@ public class StatementProcessController {
 					response.setRecords(errorRecords);
 				} else {
 					response.setResponseCode(BankConstants.HTTP_CODE_SUCCESS);
-					response.setResponseMessage(BankConstants.VALIDATION_ERROR);
+					response.setResponseMessage(BankConstants.VALIDATION_SUCCESS);
 				}
 			} else if (FilenameUtils.getExtension(multipart.getOriginalFilename()).equalsIgnoreCase(BankConstants.TYPE_XML)) {
 				List<Record> errorRecords = new ArrayList<Record>();
@@ -97,7 +97,7 @@ public class StatementProcessController {
 					response.setRecords(errorRecords);
 				} else {
 					response.setResponseCode(BankConstants.HTTP_CODE_SUCCESS);
-					response.setResponseMessage(BankConstants.VALIDATION_ERROR);
+					response.setResponseMessage(BankConstants.VALIDATION_SUCCESS);
 				}
 			} else {
 				response.setResponseCode(BankConstants.HTTP_CODE_INVALID_INPUT);
