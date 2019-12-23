@@ -24,8 +24,8 @@ At the end of the processing, a report needs to be created which will display bo
 # Technologies used
 * Java 8
 * Spring Boot
-  -Spring Boot Web
-  -Spring Boot Actuator
+  - Spring Boot Web
+  - Spring Boot Actuator
 * Maven
 * Mockito/junit
 * Jsp
